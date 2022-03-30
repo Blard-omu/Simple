@@ -1,0 +1,65 @@
+echo "# Simple" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Blard-omu/Simple.git
+git push -u origin main
+
+
+
+
+git branch 
+
+
+acer@BLARD1-COM MINGW32 ~ (master)
+$ cd desktop
+
+acer@BLARD1-COM MINGW32 ~/desktop (master)
+$ ls
+ Code/
+'Google Chrome.lnk'*
+'HOPE VALLEY DEBT RECOVERY.docx'
+'Joy Blessing CV.docx'
+'Microsoft Office Excel 2007.lnk'*
+'Microsoft Office PowerPoint 2007.lnk'*
+'Microsoft Office Word 2007.lnk'*
+ Simple/
+ WhatsApp.lnk*
+ Zoom.lnk*
+ command/
+ desktop.ini
+'git practice'/
+'nigeria Chem101 Certificate _ Imagine Learning Africa (Nigeria).pdf'
+'nigeria DIG101 Certificate _ Imagine Learning Africa (Nigeria).pdf'
+ note
+'~$E MATH CLASS_PRIME FACTORIZATION.docx'
+
+acer@BLARD1-COM MINGW32 ~/desktop (master)
+$ cd simple
+
+acer@BLARD1-COM MINGW32 ~/desktop/simple (master)
+$ ls
+NB  index.html
+
+acer@BLARD1-COM MINGW32 ~/desktop/simple (master)
+$ code .
+
+acer@BLARD1-COM MINGW32 ~/desktop/simple (master)
+$ git add index.html
+
+acer@BLARD1-COM MINGW32 ~/desktop/simple (master)
+$ git commit -m "simple"
+[master (root-commit) a8b0024] simple
+ 1 file changed, 12 insertions(+)
+ create mode 100644 Simple/index.html
+
+acer@BLARD1-COM MINGW32 ~/desktop/simple (master)
+$ git branch
+* master
+
+acer@BLARD1-COM MINGW32 ~/desktop/simple (master)
+$ git branch code
+
+acer@BLARD1-COM MINGW32 ~/desktop/simple (master)
+$
